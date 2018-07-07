@@ -32,11 +32,8 @@
       <file leaf-file-name="logistic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logistic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
-              <folding>
-                <element signature="e#125#144#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="4142">
+              <caret line="219" selection-start-line="219" selection-end-line="219" />
             </state>
           </provider>
         </entry>
@@ -45,8 +42,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="247">
-                <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -56,8 +53,8 @@
       <file leaf-file-name="HorseColicTest.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input/HorseColicTest.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="101" lean-forward="true" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
+            <state relative-caret-position="418">
+              <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -65,7 +62,7 @@
       <file leaf-file-name="HorseColicTraining.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input/HorseColicTraining.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="2831">
               <caret line="149" column="242" selection-start-line="149" selection-start-column="241" selection-end-line="149" selection-end-column="242" />
             </state>
           </provider>
@@ -236,6 +233,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -255,10 +253,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="3" side_tool="true" weight="0.32995737" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,11 +268,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
-          <folding>
-            <element signature="e#125#144#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4142">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/HorseColicTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="101" lean-forward="true" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/HorseColicTraining.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2831">
+          <caret line="149" column="242" selection-start-line="149" selection-start-column="241" selection-end-line="149" selection-end-column="242" />
         </state>
       </provider>
     </entry>
@@ -285,23 +294,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logisticApache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2223">
-          <caret line="117" selection-start-line="117" selection-end-line="148" selection-end-column="18" />
-          <folding>
-            <element signature="e#33#52#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="247">
+            <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/TestSet.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logisticApache.py" />
+    <entry file="file://$PROJECT_DIR$/logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1235">
           <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-          <folding>
-            <element signature="e#125#144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -319,23 +340,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logisticApache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="e#33#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logisticApache.py" />
     <entry file="file://$PROJECT_DIR$/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1235">
           <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-          <folding>
-            <element signature="e#125#144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -353,23 +362,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logisticApache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="62" column="78" lean-forward="true" selection-start-line="62" selection-start-column="78" selection-end-line="62" selection-end-column="78" />
-          <folding>
-            <element signature="e#33#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logisticApache.py" />
     <entry file="file://$PROJECT_DIR$/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1430">
           <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-          <folding>
-            <element signature="e#125#144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -387,23 +384,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logisticApache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#33#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logisticApache.py" />
     <entry file="file://$PROJECT_DIR$/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1430">
           <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-          <folding>
-            <element signature="e#125#144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -421,23 +406,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logisticApache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2134">
-          <caret line="98" column="40" lean-forward="true" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
-          <folding>
-            <element signature="e#33#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logisticApache.py" />
     <entry file="file://$PROJECT_DIR$/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-          <folding>
-            <element signature="e#125#144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -490,16 +463,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logisticApache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="124" column="28" lean-forward="true" selection-end-line="289" selection-end-column="17" />
-          <folding>
-            <element signature="e#33#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logisticApache.py" />
     <entry file="file://$PROJECT_DIR$/input/TestSet.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -509,33 +473,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/input/HorseColicTraining.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="2831">
           <caret line="149" column="242" selection-start-line="149" selection-start-column="241" selection-end-line="149" selection-end-column="242" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input/HorseColicTest.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="101" lean-forward="true" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
+        <state relative-caret-position="418">
+          <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
-          <folding>
-            <element signature="e#125#144#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4142">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>

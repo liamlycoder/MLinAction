@@ -32,9 +32,9 @@ def showdatas(datingDataMat, datingLabels):
 
     # 设置图例
     Female = mlines.Line2D([], [], color='black', marker='.',
-                              markersize=8, label='Female')
+                           markersize=8, label='Female')
     Male = mlines.Line2D([], [], color='orange', marker='.',
-                               markersize=8, label="Male")
+                         markersize=8, label="Male")
     # 添加图例
     axs.legend(handles=[Female, Male])
     # 显示图片
@@ -43,7 +43,7 @@ def showdatas(datingDataMat, datingLabels):
 
 if __name__ == "__main__":
     # 打开的文件名
-    filename = "dataSetEx.txt"
+    filename = "Data.txt"
     # 打开并处理数据
     datingDataMat, datingLabels = file2matrix(filename)
     showdatas(datingDataMat, datingLabels)

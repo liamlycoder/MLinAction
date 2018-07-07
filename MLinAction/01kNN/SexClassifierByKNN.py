@@ -5,14 +5,14 @@ import operator
 
 
 def file2matrix(filename):
-    '''
+    """
     函数描述：解析文件。将带有标签的数据解析为特征矩阵和标签向量
     :param filename:
         filename --文件名
     :return:
         returnMat - 特征矩阵
         classLabelVector - 分类Label向量
-    '''
+    """
 
     # 打开文件
     fr = open(filename)
@@ -44,7 +44,7 @@ def file2matrix(filename):
 
 
 def autoNorm(dataSet):
-    '''
+    """
     函数描述：对数据进行归一化
 
     :param dataSet:
@@ -53,7 +53,7 @@ def autoNorm(dataSet):
         normDataSet - 归一化后的特征矩阵
         ranges - 数据范围
         minVals - 数据最小值
-    '''
+    """
 
     # 分别获取特征矩阵中每一列的最小、最大值
     minVals = dataSet.min(0)
@@ -70,7 +70,7 @@ def autoNorm(dataSet):
 
 
 def classifyByKNN(dataTest, dataSet, lables, k):
-    '''
+    """
     函数描述：kNN分类器
 
     :param dataTest: 用于分类的数据（测试集）
@@ -78,11 +78,12 @@ def classifyByKNN(dataTest, dataSet, lables, k):
     :param lables: 分类标签
     :param k: kNN算法参数，选择距离最近的k个点
     :return: 分类结果
-    '''
+    """
     # 获取训练数据集的行数
     dataSetSize = dataSet.shape[0]
 
     diffMat = np.tile(dataTest, (dataSetSize, 1)) - dataSet
+    # print(dataSet.shape, np.tile(dataTest, (dataSetSize, 1)).shape)
     sqDiffMat = diffMat ** 2
     sqDistances = sqDiffMat.sum(axis=1)
     distances = sqDistances ** 0.5
@@ -95,7 +96,9 @@ def classifyByKNN(dataTest, dataSet, lables, k):
     for i in range(k):
         voteLables = lables[sortedDistIndex[i]]
         classCount[voteLables] = classCount.get(voteLables, 0) + 1
+        # 0为默认值
     sortedClassCount = sorted(classCount.items(), key=operator.itemgetter(1), reverse=True)
+    # print(sortedClassCount)
     return sortedClassCount[0][0]
 
 
@@ -106,7 +109,7 @@ def classifyTest():
     testFileName = "dataSetTest.txt"
     testDataMat, testLableVector = file2matrix(testFileName)
     testLines = testDataMat.shape[0]
-    #训练集
+    # 训练集
     exFileName = "dataSetEx.txt"
     dataMat, dataLable = file2matrix(exFileName)
     normMat, ranges, minVals = autoNorm(dataMat)
@@ -121,7 +124,7 @@ def classifyTest():
             errorCount += 1
     # 计算错误率
     errorRate = errorCount / testLines
-    print("错误率为：%f" %errorRate)
+    print("错误率为：%f" % errorRate)
 
 
 if __name__ == "__main__":

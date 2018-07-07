@@ -14,13 +14,13 @@ from sklearn.metrics import classification_report
 
 # 文本解析
 def textParse(bigStr):
-    '''
+    """
     通过正则表达式将字符串进行切割。
     :param bigStr: 字符串
     :return: 切割后的单词列表，把长度小于2的单词自动忽略
-    '''
+    """
     tokenList = re.split(r'\W+', bigStr)
-    return [tok.lower() for tok in tokenList if len(tok) > 2]
+    return [tok.lower() for tok in tokenList if len(tok) > 3]
 
 
 # 数据解析
